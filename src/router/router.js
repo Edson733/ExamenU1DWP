@@ -22,6 +22,16 @@ const routes = [
 				name: 'inicio',
 				component: () => import('../components/Inicio.vue')
             },
+            {
+                path: '/formulario',
+				name: 'formulario',
+				component: () => import('../components/Formulario.vue')
+            },
+            {
+                path: '/paginacion',
+				name: 'paginacion',
+				component: () => import('../components/Paginacion.vue')
+            },
         ]
     }
 ]
